@@ -25,7 +25,7 @@ api_key = os.environ.get('tmdbApiKey')
 PORT = int(os.environ.get('PORT', '8443'))
 logger = logging.getLogger(__name__)
 
-TOKEN = os.environ.get('TOKEN')
+TOKEN = os.environ.get('7890545940:AAFTHxpwtFr9ie7TqIYuu6u8zFbazJJ2YH0')
 name = ''
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
